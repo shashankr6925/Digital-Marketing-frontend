@@ -1,0 +1,404 @@
+@import url(https://db.onlinewebfonts.com/c/82b778d1b069157bf6b2e32dc4e1e3f1?family=Neue+Machina);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: "Neue Machina";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav h1 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+nav h4 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+nav button {
+    padding: 12px 13px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+nav h1 i {
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 42px;
+}
+
+.center {
+    padding: 30px 40px;
+    height: 69%;
+    width: 100%;
+    display: flex;
+}
+
+.center-part1 {
+
+    height: 100%;
+    width: 48%;
+}
+
+.center-part1 h1 {
+    font-size: 73px;
+    font-family: "Neue Machina";
+    line-height: 1.1;
+}
+
+.center-part2 {
+
+    height: 100%;
+    width: 52%;
+    position: relative;
+}
+
+.center-part1 p {
+    font-size: 24px;
+    width: 98%;
+    margin-top: 30px;
+    font-family: "Neue Machina";
+    margin-bottom: 25px;
+}
+
+.center-part1 button {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 28px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.center-part2 img {
+
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+.section1bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+
+.section1bottom img {
+    /* height: 50px; */
+}
+
+.i1 {
+    margin-top: 6px;
+    height: 40px;
+}
+
+.i2 {
+    height: 100px;
+}
+
+.i3 {
+    height: 80px;
+}
+
+.i4 {
+    height: 40px;
+}
+
+.i5 {
+    height: 100px;
+}
+
+.section2 .services {
+    margin-top: 70px;
+    padding: 30px 40px 5px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.services h3 {
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 4px 8px 2px 8px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+.services p {
+    width: 40%;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.container {
+    height: 90%;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.elem {
+    flex-shrink: 0;
+    width: 48%;
+    height: 280px;
+    border: 3px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 6px 0px rgb(0, 0, 0);
+    /* background-color: red; */
+    padding: 40px;
+    display: flex;
+}
+
+
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+
+.elem-part2 img{
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.elem-part1 h2{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #9AE975;
+    width: 75%;
+    padding: 0px 5px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.elem-part1 h4 i{
+    padding: 8px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 12px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.black{
+    background-color: black;
+
+}
+
+.elem1, .elem2{
+        margin-left: 80px;
+}
+
+.elem4{
+    margin-left: 40px;
+}
+
+.elem3{
+    margin-left: 90px;
+}
+
+.black h2{
+    background-color: #fff;
+    padding: 0 5px;
+    width: 60%;
+}
+
+.black h4{
+    color: #fff;
+}
+
+.black h4 i{
+    color: black;
+    background-color: #fff;
+}
+
+.section3{
+    padding-top: 1px;
+}
+.container2 {
+    width: 95%;
+    height: 35%;
+    margin: 50px auto 20px auto;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    background-color: #f4f4f4;
+    border-radius: 40px;
+    box-shadow: inset 2px 1px 0px rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+.container2 .cont-left{
+    width: 50%;
+}
+
+.container2 .cont-left h3{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.container2 .cont-left p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.container2 .cont-left button{
+    font-size: 18px;
+    margin: 20px;
+    border: none;
+    padding: 18px 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container2 .cont-right img{
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 50px;
+
+}
+
+
+.container3{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding: 30px 45px;
+}
+
+.container3 h3{
+    font-size: 30px;
+    background-color: #9AE975;
+    padding: 5px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.container3 p{
+    font-size: 20px;
+    width: 50%;   
+}
+
+.container4{
+    width: 95%;
+    height: 35%;
+    margin: 22px auto 20px auto;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 40px;
+    /* box-shadow: inset 2px 1px 0px rgb(0, 0, 0); */
+}
+
+.container4 p{
+    width: 70%;
+    font-size: 18px;
+}
+
+.container4 .cont4-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container4 .cont4-p2{
+    border-right: 3px solid #fff ;
+    border-left: 3px solid #fff ;
+}
+
+.container4 .cont4-p h3{
+    color: #9AE975;
+    padding: 18px;
+    margin-right: 40%;
+    cursor: pointer;
+}
+
+.container4 .cont4-p h3 i{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000000;
+}
